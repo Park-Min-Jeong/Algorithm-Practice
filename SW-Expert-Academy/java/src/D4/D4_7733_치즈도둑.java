@@ -1,8 +1,8 @@
-package Level4;
+package D4;
 
 import java.util.*;
 
-public class CheeseThief {
+public class D4_7733_치즈도둑 {
 	
 	static int n;
 	
@@ -63,15 +63,18 @@ public class CheeseThief {
 			
 			n = sc.nextInt();
 			arr = new int[n][n];
+
+			int max = Integer.MIN_VALUE;
             
 			
 			for (int y = 0; y < n; y++) {
 				for (int x = 0; x < n; x++) {
 					arr[y][x] = sc.nextInt();
+					max = Math.max(max, arr[y][x]);
 				}
 			}
 			
-			for (int i = 0; i < 101; i++) {
+			for (int i = 0; i <= max; i++) {
 
 				for (int y = 0; y < n; y++) {
 					for (int x = 0; x < n; x++) {
