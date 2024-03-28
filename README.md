@@ -1,3 +1,6 @@
 # Algorithm-Practice
 ### commit message 
-> solved|failed: {yymmdd} {platform} {level} {problem name}
+> solved|failed: {yymmdd} {platform} {file name}
+
+### file name
+> {level}_{(problem id)}_{problem name}.{extention}
